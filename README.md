@@ -4,7 +4,6 @@ A premium, immersive, and high-performance developer portfolio built with **Reac
 
 Designed with a strict **"Deep Space" Dark Mode** aesthetic, featuring a cinematic galaxy background, smooth animations, and a polished user experience.
 
-![Portfolio Preview](./src/assets/profile.png)
 <!-- You can replace the above path with a screenshot of the homepage later -->
 
 ## ✨ Features
@@ -12,9 +11,9 @@ Designed with a strict **"Deep Space" Dark Mode** aesthetic, featuring a cinemat
 - **Cinematic Galaxy 3D**: A custom, high-density starfield background with parallax depth and nebula effects (powered by `three.js` + `maath`).
 - **Dark Mode Native**: Built from the ground up for a premium dark-themed experience.
 - **Interactive UI**:
-    - **Framer Motion** animations for smooth page transitions and scroll reveals.
-    - **Glassmorphism** styling on cards and navigation.
-    - **Project Modal**: Click-to-expand project details with large visuals and live links.
+  - **Framer Motion** animations for smooth page transitions and scroll reveals.
+  - **Glassmorphism** styling on cards and navigation.
+  - **Project Modal**: Click-to-expand project details with large visuals and live links.
 - **Fully Responsive**: Optimized for all devices (Mobile, Tablet, Desktop).
 - **Performance First**: Optimized assets, code-splitting, and efficient 3D rendering loops.
 
@@ -29,17 +28,20 @@ Designed with a strict **"Deep Space" Dark Mode** aesthetic, featuring a cinemat
 ## 🚀 Getting Started
 
 1.  **Clone the repository**:
+
     ```bash
     git clone https://github.com/yourusername/fusion-hubble.git
     cd fusion-hubble
     ```
 
 2.  **Install dependencies**:
+
     ```bash
     npm install
     ```
 
 3.  **Run Development Server**:
+
     ```bash
     npm run dev
     ```
@@ -63,11 +65,8 @@ src/
 ## 🎨 Customization
 
 Go to `src/data/constants.js` to easily update:
+
 - Your Name, Bio, and Details.
 - Project Links and Descriptions.
 - Skill Lists.
 - Social Links.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
