@@ -16,12 +16,20 @@ const About = () => {
                     >
                         <div className="relative group">
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-500" />
-                            <div className="relative bg-zinc-900 border border-white/10 rounded-2xl p-8 aspect-square flex items-center justify-center overflow-hidden shadow-lg transition-colors">
-                                <div className="text-center">
-                                    <h3 className="text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-600 select-none opacity-20">
-                                        AS
-                                    </h3>
-                                </div>
+                            <div className={`relative bg-zinc-900 border border-white/10 rounded-2xl ${USER_DETAILS.profileImage ? 'overflow-hidden' : 'p-8 flex items-center justify-center'} aspect-square shadow-lg transition-colors`}>
+                                {USER_DETAILS.profileImage ? (
+                                    <img
+                                        src={USER_DETAILS.profileImage}
+                                        alt={USER_DETAILS.name}
+                                        className="w-full h-full object-cover grayscale-0 hover:grayscale-0 transition-all duration-500"
+                                    />
+                                ) : (
+                                    <div className="text-center">
+                                        <h3 className="text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-600 select-none opacity-20">
+                                            AS
+                                        </h3>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </motion.div>
