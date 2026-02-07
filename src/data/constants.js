@@ -56,18 +56,18 @@ export const PROJECTS = [
     id: 2,
     title: "Job Application Portal",
     description:
-      "Comprehensive job board application with premium UX, guided multi-step forms, real-time validation, and application tracking.",
+      "A feature-rich Job Application Portal built with React and Redux, featuring job listings, a multi-step application wizard, and user profile management.",
     tech: ["React (Vite)", "Redux Toolkit", "Context API", "CSS Variables"],
-    liveLink: "https://studyhubfinal-1.onrender.com/",
+    liveLink: "https://job-application-portal-i.vercel.app/",
     image: jobPortalImg,
   },
   {
     id: 3,
     title: "Smart Shopping Cart",
     description:
-      "Interactive e-commerce web application showcasing advanced React patterns, global state management, and seamless checkout experience.",
+      "An interactive E-commerce shopping cart application built with React, Redux, Context API, and React Router. Features product filtering, global user state management, and a seamless checkout process.",
     tech: ["React", "Redux", "Context API", "Tailwind CSS"],
-    liveLink: "https://studyhubfinal-1.onrender.com/",
+    liveLink: "https://smart-cart-shopping.vercel.app/",
     image: smartCartImg,
   },
 ];
