@@ -27,26 +27,19 @@ Designed with a strict **"Deep Space" Dark Mode** aesthetic, featuring a cinemat
 
 ## 🚀 Getting Started
 
-1.  **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/fusion-hubble.git
-    cd fusion-hubble
-    ```
-
-2.  **Install dependencies**:
+1.  **Install dependencies**:
 
     ```bash
     npm install
     ```
 
-3.  **Run Development Server**:
+2.  **Run Development Server**:
 
     ```bash
     npm run dev
     ```
 
-4.  **Build for Production**:
+3.  **Build for Production**:
     ```bash
     npm run build
     ```
