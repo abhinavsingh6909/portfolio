@@ -18,7 +18,7 @@ export const USER_DETAILS = {
   socialMatches: [
     {
       id: "github",
-      link: "https://github.com/abhinavsingh6909li",
+      link: "https://github.com/abhinavsingh6909",
       icon: FaGithub,
       label: "GitHub",
     },
