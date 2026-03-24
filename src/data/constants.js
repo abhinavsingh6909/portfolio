@@ -30,7 +30,7 @@ export const USER_DETAILS = {
     },
     {
       id: "leetcode",
-      link: "https://leetcode.com/u/abhinav_thakur__1/",
+      link: "https://leetcode.com/u/abhinav--singh/",
       icon: SiLeetcode,
       label: "LeetCode",
     },
